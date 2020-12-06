@@ -1,0 +1,10 @@
+CentOS/RHEL 5 or 6     = ifconfig
+CentOS/RHEL 7          = ip
+CentOS/RHEL 7.5 and up = ifconfig (command has been deprecated)
+
+To use ifconfig in 7.5 = "yum install net-tools" 
+
+Then look at name "enp0s3" or similar
+
+ifconfig
+ip a

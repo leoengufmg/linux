@@ -1,0 +1,22 @@
+Host-only Adapter = Allows comunication between your PC and the Virtual Machine
+
+Bridged Adapter = Allows communication between your PC and VM plus allows communication to the internet
+
+Pick any one of them
+
+1 COMMANDS
+
+ifconfig
+su -
+ifup enp0s3
+ifconfig
+
+. Now can see the ip address
+
+2 Access to linux from MAC
+	Openup a terminal on your MAC
+	Run the following command
+	# ssh -l username 192.168.x.x
+
+3 Access to linux from Windows
+	Open putty
